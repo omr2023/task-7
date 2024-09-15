@@ -1,0 +1,405 @@
+
+
+
+
+
+body{
+
+    perspective: 800px;
+    background-color: #f1faee;
+}
+.img-1{
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+.neww{
+    font-size: 70px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-car{
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    margin-left: 700px;
+}
+.section-car, .back-car, .fornt-car{
+    margin-top: 0px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+.back-car{
+    background-color: brown;
+    text-align: center;
+    line-height: 30px;
+ 
+}
+.fornt-car{
+    background-image: url(../imges/v1.jpg);
+    background-size: cover;
+}
+.fornt-car, .back-car{
+    position: absolute;
+}
+.section-car:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.fornt-car{
+    backface-visibility: hidden;
+    z-index: 1;
+}
+.back-car{
+    transform: rotateY(180deg);
+}
+.but1{
+    width: 200px;
+    height: 40px;
+    background-color: aliceblue;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+.section-car1{
+    position: relative;
+    transform-style: preserve-3d;
+    margin-top: -300px;
+    margin-left: 150px;
+}
+.section-car1, .back-car1, .fornt-car1{
+    width: 400px;
+    height: 300px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+.back-car1{
+    background-color: brown;
+    text-align: center;
+    line-height: 30px;
+ 
+}
+.fornt-car1{
+    background-image: url(../imges/car-rent-5.png);
+    background-size: cover;
+}
+
+.fornt-car1, .back-car1{
+    position: absolute;
+}
+.section-car1:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.fornt-car1{
+    backface-visibility: hidden;
+    z-index: 1;
+}
+.back-car1{
+    transform: rotateY(180deg);
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section-car2{
+    position: relative;
+    transform-style: preserve-3d;
+    margin-top: 100px;
+    margin-left: 700px;
+   
+}
+
+
+.section-car2, .back-car2, .fornt-car2{
+    width: 400px;
+    height: 300px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+.back-car2{
+    background-color: brown;
+    text-align: center;
+    line-height: 30px;
+ 
+}
+.fornt-car2{
+    background-image: url(../imges/car-rent-6.png);
+    background-size: cover;
+}
+.fornt-car2, .back-car2{
+    position: absolute;
+}
+.section-car2:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.fornt-car2{
+    backface-visibility: hidden;
+    z-index: 1;
+}
+.back-car2{
+    transform: rotateY(180deg);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+.section-car3{
+   position: relative;
+    transform-style: preserve-3d;
+    margin-top: -300px;
+    margin-left: 150px;
+}
+.section-car3, .back-car3, .fornt-car3{
+    width: 400px;
+    height: 300px;
+    border: 1px solid aliceblue;
+    background-color: black;
+    color: aliceblue;
+}
+.back-car3{
+    background-color: brown;
+    text-align: center;
+    line-height: 30px;
+}
+.fornt-car3{
+    background-image: url(../imges/car-rent-2.png);
+    z-index: 1;
+}
+.fornt-car3, .back-car3{
+    position: absolute;
+}
+.section-car3:hover{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.fornt-car3{
+    backface-visibility: hidden;
+}
+.back-car3{
+    transform: rotateY(180deg);
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+.section-car4{
+    position: relative;
+     transform-style: preserve-3d;
+     margin-top: 100px;
+     margin-left: 700px;
+ }
+ .section-car4, .back-car4, .fornt-car4{
+     width: 400px;
+     height: 300px;
+     border: 1px solid aliceblue;
+     background-color: rgb(255, 249, 249);
+     color: aliceblue;
+ }
+ .back-car4{
+     background-color: brown;
+     text-align: center;
+     line-height: 30px;
+ }
+ .fornt-car4{
+     background-image: url(../imges/car-rent-4.png);
+     z-index: 1;
+ }
+ .fornt-car4, .back-car4{
+     position: absolute;
+ }
+ .section-car4:hover{
+     transform: rotateY(180deg);
+     transition: 1s;
+ }
+ .fornt-car4{
+     backface-visibility: hidden;
+ }
+ .back-car4{
+     transform: rotateY(180deg);
+ }
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.section-car5{
+    position: relative;
+     transform-style: preserve-3d;
+     margin-top: -300px;
+     margin-left: 150px;
+ }
+ .section-car5, .back-car5, .fornt-car5{
+     width: 400px;
+     height: 300px;
+     border: 1px solid aliceblue;
+     background-color: black;
+     color: aliceblue;
+ }
+ .back-car5{
+     background-color: brown;
+     text-align: center;
+     line-height: 30px;
+ }
+ .fornt-car5{
+     background-image: url(../imges/bg-banner.jpg);
+     background-size: cover;
+     z-index: 1;
+ }
+ .fornt-car5, .back-car5{
+     position: absolute;
+ }
+ .section-car5:hover{
+     transform: rotateY(180deg);
+     transition: 1s;
+ }
+ .fornt-car5{
+     backface-visibility: hidden;
+ }
+ .back-car5{
+     transform: rotateY(180deg);
+ }
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+.section-car6{
+    position: relative;
+     transform-style: preserve-3d;
+     margin-top: 100px;
+     margin-left: 700px;
+ }
+ .section-car6, .back-car6, .fornt-car6{
+     width: 400px;
+     height: 300px;
+     border: 1px solid aliceblue;
+     background-color: rgb(255, 249, 249);
+     color: aliceblue;
+ }
+ .back-car6{
+     background-color: brown;
+     text-align: center;
+     line-height: 30px;
+ }
+ .fornt-car6{
+     background-image: url(../imges/v2.jpg);
+     background-size: cover;
+     z-index: 1;
+ }
+ .fornt-car6, .back-car6{
+     position: absolute;
+ }
+ .section-car6:hover{
+     transform: rotateY(180deg);
+     transition: 1s;
+ }
+ .fornt-car6{
+     backface-visibility: hidden;
+ }
+ .back-car6{
+     transform: rotateY(180deg);
+ }
+/* /////////////////////////////////////////////////////////////////////////////////// */
+.section-car7{
+    position: relative;
+     transform-style: preserve-3d;
+     margin-top: -300px;
+     margin-left: 150px;
+ }
+ .section-car7, .back-car7, .fornt-car7{
+     width: 400px;
+     height: 300px;
+     border: 1px solid aliceblue;
+     background-color: rgb(255, 249, 249);
+     color: aliceblue;
+ }
+ .back-car7{
+     background-color: brown;
+     text-align: center;
+     line-height: 30px;
+ }
+ .fornt-car7{
+     background-image: url(../imges/v3.jpg);
+     background-size: cover;
+     z-index: 1;
+ }
+ .fornt-car7, .back-car7{
+     position: absolute;
+ }
+ .section-car7:hover{
+     transform: rotateY(180deg);
+     transition: 1s;
+ }
+ .fornt-car7{
+     backface-visibility: hidden;
+ }
+ .back-car7{
+     transform: rotateY(180deg);
+ }
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section-car8{
+    position: relative;
+     transform-style: preserve-3d;
+     margin-top: 100px;
+     margin-left: 700px;
+ }
+ .section-car8, .back-car8, .fornt-car8{
+     width: 400px;
+     height: 300px;
+     border: 1px solid aliceblue;
+     background-color: rgb(255, 249, 249);
+     color: aliceblue;
+ }
+ .back-car8{
+     background-color: brown;
+     text-align: center;
+     line-height: 30px;
+ }
+ .fornt-car8{
+     background-image: url(../imges/v4.jpg);
+     background-size: cover;
+     z-index: 1;
+ }
+ .fornt-car8, .back-car8{
+     position: absolute;
+ }
+ .section-car8:hover{
+     transform: rotateY(180deg);
+     transition: 1s;
+ }
+ .fornt-car8{
+     backface-visibility: hidden;
+ }
+ .back-car8{
+     transform: rotateY(180deg);
+ }
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+.section-car9{
+    position: relative;
+     transform-style: preserve-3d;
+     margin-top: -300px;
+     margin-left: 150px;
+ }
+ .section-car9, .back-car9, .fornt-car9{
+     width: 400px;
+     height: 300px;
+     border: 1px solid aliceblue;
+     background-color: rgb(255, 249, 249);
+     color: aliceblue;
+ }
+ .back-car9{
+     background-color: brown;
+     text-align: center;
+     line-height: 30px;
+ }
+ .fornt-car9{
+     background-image: url(../imges/car-rent-5.png);
+     background-size: cover;
+     z-index: 1;
+ }
+ .fornt-car9, .back-car9{
+     position: absolute;
+ }
+ .section-car9:hover{
+     transform: rotateY(180deg);
+     transition: 1s;
+ }
+ .fornt-car9{
+     backface-visibility: hidden;
+ }
+ .back-car9{
+     transform: rotateY(180deg);
+ }
